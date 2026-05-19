@@ -25,6 +25,7 @@ This project simulates a real-world enterprise Active Directory environment usin
 ## Lab Environment
 - Domain: jmlab.local
 - Domain Controller: DC-01
+- Client: CLIENT.001
 
 ## Project Structure
 ```text
@@ -38,6 +39,10 @@ notes/        -> Additional project notes
 - Configured security groups for departments
 - Simulated password reset requests
 - Disabled and managed inactive user accounts
+- Joined a Windows client workstation to the jmlab.local domain
+- Verified DNS and network connectivity between CLIENT-01 and DC-01
+- Successfully tested domain user login from a client workstation
+- Documented domain login testing through help desk ticket format
 - Resolved Active Directory prerequisite conflicts during deployment
 
 ## Screenshots
